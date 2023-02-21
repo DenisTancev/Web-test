@@ -1,0 +1,22 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+.full {
+    
+
+}
+.column{
+    border: 1px solid black;
+    width: 800px;
+    margin:0px auto;
+}
+.header{
+    
+}
+.page .column{
+    height:100vh;  
+}
+.footer{
+   
+}
