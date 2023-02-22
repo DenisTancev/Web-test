@@ -2,21 +2,51 @@ body {
     margin:0px;
     padding:0px;
 }
-.full {
-    
-
-}
 .column{
-    border: 1px solid black;
+  /*  border: 1px solid black; bordura na cela strana i stranici*/
     width: 800px;
     margin:0px auto;
 }
 .header{
-    
+    border-bottom: 1px solid red;
 }
+
 .page .column{
     height:100vh;  
 }
-.footer{
-   
+#logo-i-social{
+    display: flex;
+}
+#logo-holder{
+    flex-grow: 1;
+    
+}
+#logo-holder img{
+    width: 150px;
+    height: 70px;
+}
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+    
+}
+#social-holder a{
+    margin: 10px 5px;
+}
+#main-menu{
+    display: flex;
+}
+#main-menu  a{
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: rgb(101, 94, 94);
+    transition:300ms;
+}
+#main-menu  a:hover,
+#main-menu  a.active{
+    color: aliceblue;
+    background-color:rgb(108, 103, 190);
 }
