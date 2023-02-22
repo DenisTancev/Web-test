@@ -31,6 +31,7 @@ body {
     
 }
 #social-holder a{
+    text-decoration: none;
     margin: 10px 5px;
 }
 #main-menu{
