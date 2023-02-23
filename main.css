@@ -4,7 +4,7 @@ body {
 }
 .column{
   /*  border: 1px solid black; bordura na cela strana i stranici*/
-    width: 800px;
+    width: 1000px;
     margin:0px auto;
 }
 .header{
@@ -50,4 +50,21 @@ body {
 #main-menu  a.active{
     color: aliceblue;
     background-color:rgb(108, 103, 190);
+}
+#pocetna{
+    text-align: center;
+   color: rgb(60, 53, 53);
+   background: url(image/background-1.jpg);
+    background-size: cover;
+}
+#pocetna h1{
+    font-size: 48pt;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+.dark-box{
+    background-color: #99999950;
+    border: 1px solid rgb(246, 226, 226);
+    font-size: 24pt;
+    padding: 35px;
 }
