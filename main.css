@@ -14,6 +14,10 @@ body {
 .page .column{
     height:100vh;  
 }
+.page .column p{
+    font-size: 20px;
+    font-weight: bold;  
+}
 #logo-i-social{
     display: flex;
 }
@@ -56,24 +60,19 @@ body {
    color: rgb(60, 53, 53);
    background: url(image/background-1.jpg);
     background-size: cover;
-
     background-attachment: fixed;
-
 }
 #pocetna h1{
     font-size: 48pt;
     margin-top: 0px;
     padding-top: 60px;
-
     color: rgb(33, 55, 33);
-
 }
 .dark-box{
     background-color: #99999950;
     border: 1px solid rgb(246, 226, 226);
     font-size: 24pt;
     padding: 35px;
-
 }
 #uslugi{
     text-align: center;
@@ -88,6 +87,45 @@ body {
    background: url(image/bg-3.jpg);
     background-size: cover;
     background-attachment: fixed;
-=======
 }
+ .align-center{
+    text-align: center;
+ }
 
+ .krugovi{
+    display: flex;
+ }
+ 
+ .krug-holder{
+    flex-grow: 1;
+ }
+.krug {
+        background: red;
+        color: ffff;
+        font-size: 48px;
+        font-weight: bold;
+        border-radius: 50%;
+        padding: 20%;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+         
+}
+.oznaka{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:20px 0px;
+}
+.tehnologije{
+    display: flex;
+    margin: 50px;
+}
+.tehnologija{
+    flex-grow: 1;
+    text-align: center;   
+}
+.tehnologija img {
+    width: 50px;
+    height: 50px;
+}
+ 
