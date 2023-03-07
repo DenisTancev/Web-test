@@ -250,3 +250,41 @@ body {
 .proizvod:hover .text-holder{
   opacity: 1.0;
 }
+/* nadole kodot mora da se proveri*/
+
+#kariera h2{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.career-columns{
+  display: flex;
+}
+.job-list{
+flex-grow: 1;
+}
+.job-descriptions{
+  flex-grow: 2;
+  border:1px solid black;
+  margin-left: 15px;
+
+}
+
+.job-list label{
+  display: block;
+  margin-bottom: 10px;
+  border:1px solid black;
+  background-color: #ffffffA2;
+  padding: 15px;
+  font-weight: bold;
+}
+.job-descriptions input{
+  display: none;
+}
+.job-descriptions .job-description{
+  display: none;
+}
+.job-descriptions input:checked+.job-description{
+  display: block;
+}
